@@ -1,67 +1,39 @@
 #title{
     max-height: 150px;
-    margin-bottom: 300px;
+    margin-bottom: 30px;
 }
 
 div.full-body{
-    background-image: url("../images/rv-for-game.png"), url("../images/blue-smoke.jpg");
+    background-image: url("../images/blue-smoke.jpg");
+    /* background-image: url("../images/blue-smoke.jpg"); */
     max-height: 1300px;
     max-width: 1200px;
     background-repeat:no-repeat;
     background-position:center center;
-    background-size:contain;
+    background-size:absolute;
     margin-left: auto;
     margin-right: auto;
     
 }
-
-#hberg1,
-#hberg2,
-#hberg3,
-#hberg4{
-    /* box-shadow: 5px 5px 5px  rgb(122, 122, 122); */
-    /* background-color: rgba(0, 0, 0, 0.3); */
-    max-height: 60px;
-    max-width: 60px;
-    width: 100%;
+.responsive{
+    max-width: 100%;
     height: auto;
-    margin: 1em;
-    margin-left: 1em;
-    border-radius: 1em;
-    position: relative;
+
+}
     
-    }
 #hberg1:hover,
 #hberg2:hover,
 #hberg3:hover,
 #hberg4:hover{
-    /* background: transparent;box-shadow: inset 0px 0px 10px rgba(0,0,0,0.9); */
-    /* background-color: rgba(0, 0, 0, 0.4); */
+
     image-rendering: crisp-edges;
     /* filter: contrast(160%); */
-    filter: saturate(270%)
+    filter: saturate(300%);
     }
 
-    #hberg4{
-        Margin-left: 928px;
-        MArgin-top: -145px;
-        position: relative;
-    }
-
-    #hberg3{
-        Margin-left: 258px;
-        MArgin-top: -184px;
-        position: relative;
-    }
-    #hberg2{
-        Margin-left: 55px;
-        MArgin-top: -184px;
-        position: relative;
-    }
-    #hberg1{
-        Margin-left: 285px;
-        MArgin-top: -178px;
-        position: relative;
+    .flex-container {
+        display: flex;
+        background-color:transparent;
     }
 
 .footer{
