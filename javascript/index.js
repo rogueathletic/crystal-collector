@@ -1,5 +1,3 @@
-
-
 var hberg1 = Math.floor((Math.random() * 12) + 1);
 var hberg2 = Math.floor((Math.random() * 12) + 1);
 var hberg3 = Math.floor((Math.random() * 12) + 1);
@@ -54,9 +52,9 @@ function set_win() {
 
 function set_loss() {
     loss = loss + 1;
-    alert('you loss');
+    alert('you lost');
     reset();
-    console.log(lost);
+    console.log(loss);
     
 }
 /* varable and information should be resetted after each game */
@@ -76,8 +74,5 @@ function reset() {
     $('#loss').html(loss);
     console.log(rand);
     console.log(win);
-    console.log(rand);
-    
-    
-    
+    console.log(rand);   
 }
