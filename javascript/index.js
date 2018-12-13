@@ -56,7 +56,7 @@ function set_loss() {
     loss = loss + 1;
     alert('you loss');
     reset();
-    console.log(loss);
+    console.log(lost);
     
 }
 /* varable and information should be resetted after each game */
