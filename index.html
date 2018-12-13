@@ -5,6 +5,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous">
     <!-- jquery start -->
+
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
         crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="./css/style.css">
@@ -14,52 +15,55 @@
 <body>
     <div class="full-body">
         <h1 id="game-title"><img src="./images/title.png" id="title"></h3>
-
-            <img src="./images/walter-white.png" id="hberg1">
-            <img src="./images/saul-goodman.png" id="hberg2">
-            <img src="./images/jesse.png" id="hberg3">
-            <img src="./images/mike-ehrmontrout.png" id="hberg4">
+            <div class="flex-container">
+                <div>&nbsp;</div>
+                <div><img src="./images/walter-white.png" id="hberg1" class="responsive"></div>
+                <div>&nbsp;</div>
+                <div><img src="./images/saul-goodman.png" id="hberg2" class="responsive"></div>
+                <div>&nbsp;</div>
+                <div><img src="./images/mike-ehrmontrout.png" id="hberg4" class="responsive"></div>
+                <div>&nbsp;</div>
+                <div><img src="./images/jesse.png" id="hberg3" class="responsive"></div>
+            </div>
             <hr id="hr1">
-
-
             <div class="container">
                 <div class="row">
                     <div class="col">
-                        <div class="rules">initial rules</div>
+                        <div class="rules">Rules: match your score to the numebr below and win.</div>
                     </div>
                     <div class="col">
-                        <div class="rules">Texplain the process</div>
+                        <div class="rules">Each Memebr of Breaking bad will have a new number random number each round. Have fun, we hope you enjoy the game.</div>
                     </div>
                     <div class="w-100"></div>
                     <div class="col">
-                        <div class="rules">bjective guideline</div>
+                        <div class="rules">How do I play: Click on the heads to colect your crystals</div>
                     </div>
                     <div class="col">
-                        <div class="rules">explain the</div>
+                        <div class="rules">&nbsp;</div>
                     </div>
                 </div>
             </div>
-           <p id="rand">0</p> 
+            <p id="rand">0</p>
             <div class="score-board-cont">
-            <div class="row">
-                <div class="col">
-                    <p>Wins: </p>
-                </div>
-                <div class="col"><span id="win"></span></div>
-                <div class="w-100"></div>
-                <div class="col">
-                    <p>Losses: </p>
-                </div>
-                <div class="col"><span id="loss"></span></div>
-                <div class="w-100"></div>
-                <div class="col">
-                    <p>Your Total score is</p>
-                </div>
-                <div class="col">
-                    <h2 id="score">19</h2>
+                <div class="row">
+                    <div class="col">
+                        <p>Wins: </p>
+                    </div>
+                    <div class="col"><span id="win"></span></div>
+                    <div class="w-100"></div>
+                    <div class="col">
+                        <p>Losses: </p>
+                    </div>
+                    <div class="col"><span id="loss"></span></div>
+                    <div class="w-100"></div>
+                    <div class="col">
+                        <p>Your Total score is</p>
+                    </div>
+                    <div class="col">
+                        <h2 id="score">19</h2>
+                    </div>
                 </div>
             </div>
-        </div>
 
             <script src="./javascript/index.js" defer></script>
 
@@ -70,4 +74,3 @@
 </body>
 
 </html>
-
